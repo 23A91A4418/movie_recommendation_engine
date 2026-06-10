@@ -1,0 +1,38 @@
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache and build directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Environment variables
+.env
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Dataset and Models (optional to ignore raw data and large binaries)
+data/ml-100k/
+data/ml-100k.zip
+data/svd_model.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
